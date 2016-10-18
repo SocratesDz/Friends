@@ -56,7 +56,5 @@
                 android:background="@android:drawable/ic_menu_delete" />
 
         </LinearLayout>
-
-
     </LinearLayout>
 </LinearLayout>
