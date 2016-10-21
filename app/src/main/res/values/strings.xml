@@ -3,4 +3,9 @@
     <string name="main_search_title">Search</string>
     <string name="main_add_title">Add</string>
     <string name="main_deletedatabase_title">Delete Database</string>
+    <string name="search_title">Enter name</string>
+    <string name="search_button">Search</string>
+    <string name="add_friend_title">Add Friend</string>
+    <string name="edit_friend_title">Edit Friend</string>
+    <string name="search_friends_title">Search Friend</string>
 </resources>

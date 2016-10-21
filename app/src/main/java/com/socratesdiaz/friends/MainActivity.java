@@ -18,7 +18,6 @@ public class MainActivity extends FragmentActivity {
             FriendsListFragment friendsListFragment = new FriendsListFragment();
             fragmentManager.beginTransaction().add(android.R.id.content, friendsListFragment).commit();
         }
-        setContentView(R.layout.activity_main);
     }
 
     @Override
@@ -33,7 +32,7 @@ public class MainActivity extends FragmentActivity {
         switch (item.getItemId()) {
             case R.id.addRecord:
                 Intent intent = new Intent(MainActivity.this, AddActivity.class);
-                startIntentSender(intent);
+                startActivity(intent);
                 break;
             case R.id.deleteDatabase:
                 FriendsDialog dialog = new FriendsDialog();

@@ -6,14 +6,14 @@
 
     <item android:icon="@android:drawable/ic_menu_search"
         android:id="@+id/search"
-        app:showAsAction="always"
+        app:showAsAction="ifRoom"
         android:orderInCategory="10"
         android:title="@string/main_search_title"
         tools:ignore="AppCompatResource" />
 
     <item android:icon="@android:drawable/ic_menu_add"
         android:id="@+id/addRecord"
-        app:showAsAction="always"
+        app:showAsAction="ifRoom"
         android:orderInCategory="100"
         android:title="@string/main_add_title"
         tools:ignore="AppCompatResource" />
